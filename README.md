@@ -11,12 +11,12 @@ Para os gases ou vapores, a agitação térmica é capaz de vencer a ação coes
 
 Do ponto de vista macroscópíco, diversas diferenças entre gases e líquidos podem ser apontadas:
 
-\begin{enumerate}
-  \item Gases são muito mais compressíveis do que os líquidos;
-  \item Líquidos apresentam, em geral, massa específica muito maior (uma ordem de magnitude) do que a dos gases;
-  \item Líquidos podem não se misturar (líquido imiscível), gases não;
-  \item Como consequência do item 3, superfícies envolvendo interfaces do tipo líquido-líquido ou líquido-gás apresentam tensão superficial. Não há interface do tipo gás-gás, logo neste tipo de ``mistura" não há possibilidade de haver tensão superficial.
-\end{enumerate}
+
+  - Gases são muito mais compressíveis do que os líquidos;
+  - Líquidos apresentam, em geral, massa específica muito maior (uma ordem de magnitude) do que a dos gases;
+  - Líquidos podem não se misturar (líquido imiscível), gases não;
+  - Como consequência do item 3, superfícies envolvendo interfaces do tipo líquido-líquido ou líquido-gás apresentam tensão superficial. Não há interface do tipo gás-gás, logo neste tipo de "mistura" não há possibilidade de haver tensão superficial.
+
 
 Além do enfoque molecular (Físico ou físico-químico), outras abordagens mais gerais e abrangentes podem ser usadas para definir o que pode ser considerado um material fluido. Nessas abordagens devem ser considerados fatores como escalas de tempo envolvidas e a relação entre tamanho das partículas constituintes do sistema e as escalas de comprimento típicas do escoamento.
 

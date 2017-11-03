@@ -4,6 +4,6 @@
 
 
 $
-\frac{\bu}{\bu_{\infty}}=-\left(\cos \alpha - \sin \alpha \sqrt{\frac{l+2x}{l-2x}}\right) & \quad \text{Superfície inferior do aerofólio} -\left(\cos \alpha + \sin \alpha \sqrt{\frac{l+2x}{l-2x}}\right) & \quad \text{Superfície superior do aerofólio}
+\frac{y}{x}
 $
 

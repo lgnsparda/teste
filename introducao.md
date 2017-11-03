@@ -106,9 +106,9 @@ Quando uma porção de água é servida em um copo, é preciso cerca de $10^{-13
 
 A relação entre esses dois tempos característicos é tal que o "fluido", ou material, tem muito tempo para se acomodar às novas condições de contorno. Dessa forma, podemos dizer que a razão entre o tempo característico de relaxação do material $t_{relax}$ e o tempo característico de variação das condições de contorno $t_{esc}$ para a água sendo servida em um copo é muito pequena. Define-se assim o número de Deborah como:
 
-\begin{equation}\label{eq17}
+$$
 De=\frac{t_{relax}}{t_{esc}}
-\end{equation}
+$$
 
 A origem do número de Deborah, dada pelo professor Markus Reiner, remete à passagem bíblica cantada pela profetisa Débora no livro dos Juízes. Esta passagem encontra-se no capítulo 5, versículo 5:
 

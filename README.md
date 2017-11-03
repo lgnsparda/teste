@@ -6,8 +6,8 @@
 $$
 \frac{u}{u_{\infty}}=
   \begin{cases}
-    -\left(\cos \alpha - \sin \alpha \sqrt{\frac{l+2x}{l-2x}}\right) & \quad \text{Superfície inferior do aerofólio}\\
-    -\left(\cos \alpha + \sin \alpha \sqrt{\frac{l+2x}{l-2x}}\right) & \quad \text{Superfície superior do aerofólio}
+    -\cos \alpha - \sin \alpha) & \quad \text{Superfície inferior do aerofólio}\\
+    -\cos \alpha + \sin \alpha) & \quad \text{Superfície superior do aerofólio}
   \end{cases}
 $$
 

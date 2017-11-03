@@ -4,10 +4,10 @@
 
 
 $$
-u=
+\frac{u}{u_{\infty}}=
   \begin{cases}
-    -(\cos \alpha - \sin \alpha), &  \text{Superfície inferior do aerofólio}\\
-    -(\cos \alpha + \sin \alpha), &  \text{Superfície superior do aerofólio}
+    -\left(\cos \alpha - \sin \alpha \sqrt{\frac{l+2x}{l-2x}}\right) & \quad \text{Superfície inferior do aerofólio}\\
+    -\left(\cos \alpha + \sin \alpha \sqrt{\frac{l+2x}{l-2x}}\right) & \quad \text{Superfície superior do aerofólio}
   \end{cases}
 $$
 

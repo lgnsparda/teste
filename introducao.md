@@ -100,11 +100,11 @@ De forma que uma abordagem contínua é perfeitamente viável.
 ## Fluido, Escoamento e Escalas de Tempo: O Número de Deborah
 
 
-A definição de escoamento está ligada intrinsecamente às escalas de tempo envolvidas. Do ponto de vista mecânico, consideramos que um fluido newtoniano é um material que oferece resistência à _taxa de deformação_, diferentemente de um sólido, que oferece resistência à _deformação_. Em geral estamos habituados a classificar de maneira muito objetiva materiais que escoam e que não escoam (fluidos e não-fluidos). No entanto, é preciso estar atento às escalas de tempo associadas à deformação do material, e as alterações das condições dinâmicas a que se sujeita o material. Outra forma de descrever este conceito seria a seguinte: Quando se aplica uma tensão cisalhante em um sólido, este se deforma em uma quantidade fixa, e quando a aplicação da tensão é interrompida, o sólido interrompe sua deformação. Aplicando a mesma tensão em um fluido, este se deforma a uma taxa, e quando a aplicação da tensão é interrompida, o fluido continua a se deformar segundo esta taxa de deformação, caracterizando um escoamento.
+A definição de escoamento está ligada intrinsecamente às escalas de tempo envolvidas. Do ponto de vista mecânico, consideramos que um fluido newtoniano é um material que oferece resistência à __taxa de deformação__, diferentemente de um sólido, que oferece resistência à __deformação__. Em geral estamos habituados a classificar de maneira muito objetiva materiais que escoam e que não escoam (fluidos e não-fluidos). No entanto, é preciso estar atento às escalas de tempo associadas à deformação do material, e as alterações das condições dinâmicas a que se sujeita o material. Outra forma de descrever este conceito seria a seguinte: Quando se aplica uma tensão cisalhante em um sólido, este se deforma em uma quantidade fixa, e quando a aplicação da tensão é interrompida, o sólido interrompe sua deformação. Aplicando a mesma tensão em um fluido, este se deforma a uma taxa, e quando a aplicação da tensão é interrompida, o fluido continua a se deformar segundo esta taxa de deformação, caracterizando um escoamento.
 
-Quando uma porção de água é servida em um copo, é preciso cerca de $10^{-13}$ segundos para que as moléculas do material organizem-se e se acomodem à nova vinculação geométrica. Esse tempo, associado exclusivamente às características do material, é chamado de \underline{tempo de relaxação} do fluido. Quando a água escoa para o copo, o tempo associado do escoamento\footnote{Na verdade estamos nos referindo a um tempo relacionado à mudança das condições de contorno que envolvem o material (No caso, o movimento da jarra que contém a água).} da água é da ordem de milissegundos ($10^{-3}$ segundos) ou mais.
+Quando uma porção de água é servida em um copo, é preciso cerca de $10^{-13}$ segundos para que as moléculas do material organizem-se e se acomodem à nova vinculação geométrica. Esse tempo, associado exclusivamente às características do material, é chamado de __tempo de relaxação__ do fluido. Quando a água escoa para o copo, o tempo associado do escoamento (Na verdade estamos nos referindo a um tempo relacionado à mudança das condições de contorno que envolvem o material, ou seja, o movimento da jarra que contém a água). da água é da ordem de milissegundos ($10^{-3}$ segundos) ou mais.
 
-A relação entre esses dois tempos característicos é tal que o ``fluido", ou material, tem muito tempo para se acomodar às novas condições de contorno. Dessa forma, podemos dizer que a razão entre o tempo característico de relaxação do material $t_{relax}$ e o tempo característico de variação das condições de contorno $t_{esc}$ para a água sendo servida em um copo é muito pequena. Define-se assim o número de Deborah como:
+A relação entre esses dois tempos característicos é tal que o "fluido", ou material, tem muito tempo para se acomodar às novas condições de contorno. Dessa forma, podemos dizer que a razão entre o tempo característico de relaxação do material $t_{relax}$ e o tempo característico de variação das condições de contorno $t_{esc}$ para a água sendo servida em um copo é muito pequena. Define-se assim o número de Deborah como:
 
 \begin{equation}\label{eq17}
 De=\frac{t_{relax}}{t_{esc}}
@@ -112,19 +112,18 @@ De=\frac{t_{relax}}{t_{esc}}
 
 A origem do número de Deborah, dada pelo professor Markus Reiner, remete à passagem bíblica cantada pela profetisa Débora no livro dos Juízes. Esta passagem encontra-se no capítulo 5, versículo 5:
 
-\textsf{``Os montes escoaram diante do Senhor, e até Sinai, diante do Senhor Deus de Israel."}
+_"Os montes escoaram diante do Senhor, e até Sinai, diante do Senhor Deus de Israel."_
 
 Podemos fazer algumas observações sobre a relação entre o número de Deborah e o comportamento do material:
 
-\begin{itemize}
-  \item $De \longrightarrow 0$: O material comporta-se como um fluido e, muito provavelmente, como um fluido linear (newtoniano ou newtoniano generalizado);
-  \item $De << 1$: O material comporta-se como um fluido;
-  \item $De \sim 1$: O material escoa, mas efeitos não-lineares começam a ser importantes, ou já o são! Estes efeitos são associados principalmente a efeitos elásticos no fluido. Ou seja, o material não é puramente fluido ou sólido;
-  \item $De \longrightarrow \infty$: O material \underline{pode} se comportar como um fluido. De toda forma, o material fica indiferente às mudanças nas condições de contorno.
-\end{itemize}
 
-\section{Notação Indicial}
-\vspace{-6mm}
+  - $De \longrightarrow 0$: O material comporta-se como um fluido e, muito provavelmente, como um fluido linear (newtoniano ou newtoniano generalizado);
+  - $De << 1$: O material comporta-se como um fluido;
+  - $De \sim 1$: O material escoa, mas efeitos não-lineares começam a ser importantes, ou já o são! Estes efeitos são associados principalmente a efeitos elásticos no fluido. Ou seja, o material não é puramente fluido ou sólido;
+  - $De \longrightarrow \infty$: O material \underline{pode} se comportar como um fluido. De toda forma, o material fica indiferente às mudanças nas condições de contorno.
+  
+##Notação Indicial
+
 
 A notação indicial ou notação de Einstein é um método muito útil para a representação de grandezas vetoriais.
 

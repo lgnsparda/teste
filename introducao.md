@@ -129,7 +129,7 @@ A notação indicial ou notação de Einstein é um método muito útil para a r
 Um dado vetor no $\mathbb{R}^3$ é representado na seguinte forma:
 
 $$
-\mathbf{v}=(v_{1}, v_{2}, v_{3})=v_{1}\widehat{e}_{1}+v_{2}\widehat{e}_{2}+v_{3}\widehat{e}_{3}
+\mathbf{v}=(v_{1}, v_{2}, v_{3})=v_{1}\widehat{e_{1}}+v_{2}\widehat{e_{2}}+v_{3}\widehat{e_{3}}
 $$
 
 Onde os vetores base são:

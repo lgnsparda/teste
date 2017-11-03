@@ -23,12 +23,12 @@ Do ponto de vista macroscópíco, diversas diferenças entre gases e líquidos p
 Além do enfoque molecular (Físico ou físico-químico), outras abordagens mais gerais e abrangentes podem ser usadas para definir o que pode ser considerado um material fluido. Nessas abordagens devem ser considerados fatores como escalas de tempo envolvidas e a relação entre tamanho das partículas constituintes do sistema e as escalas de comprimento típicas do escoamento.
 
 
-\section{A Hipótese de Meio Contínuo - Número de Knudsen}
+## A Hipótese de Meio Contínuo - Número de Knudsen
 \vspace{-6mm}
 
-O conceito de contínuo (ou \emph{continuum}) é meramente uma idealização. Como ressaltamos anteriormente a matéria é composta por moléculas, e, portanto, é um sistema discreto em sua escala elementar. Porém, para grande parte das aplicações práticas, e sobretudo para o campo de interesse da mecânica dos fluidos, os líquidos e gases podem ser considerados como materiais contínuos, ou seja, infinitamente divisíveis, de forma que não há vazios no material. Nesse sentido, a mecânica dos fluidos interessa-se pelo comportamento médio de um conjunto muito (mas muito mesmo!) grande de partículas elementares.
+O conceito de contínuo (ou *continuum*) é meramente uma idealização. Como ressaltamos anteriormente a matéria é composta por moléculas, e, portanto, é um sistema discreto em sua escala elementar. Porém, para grande parte das aplicações práticas, e sobretudo para o campo de interesse da mecânica dos fluidos, os líquidos e gases podem ser considerados como materiais contínuos, ou seja, infinitamente divisíveis, de forma que não há vazios no material. Nesse sentido, a mecânica dos fluidos interessa-se pelo comportamento médio de um conjunto muito (mas muito mesmo!) grande de partículas elementares.
 
-\textbf{Exemplo:} Um centímetro cúbico de ar em condições atmosféricas padrão contém cerca de $3 \times 10^{16}$ partículas.
+**Exemplo:** Um centímetro cúbico de ar em condições atmosféricas padrão contém cerca de $3 \times 10^{16}$ partículas.
 
 Estamos, portanto, interessados no reflexo médio, de significado estatístico bem definido, de um conjunto de partículas (no sentido duplo da palavra) do material, que permita a definição de propriedades mecânicas e termodinâmicas do fluido:
 
@@ -41,15 +41,15 @@ Estamos, portanto, interessados no reflexo médio, de significado estatístico b
 
 Em geral definimos \underline{massa específica média} como:
 
-\begin{equation}\label{eq11}
+$$
 \overline{\rho}=\frac{m}{v}
-\end{equation}
+$$
 
-Onde $m$ é a massa total do sistema e $v$ é o volume total do sistema. Deseja-se definir a massa específica como propriedade local. Seria natural lançar mão do conceito de derivada, de forma que:
+Onde *m* é a massa total do sistema e *v* é o volume total do sistema. Deseja-se definir a massa específica como propriedade local. Seria natural lançar mão do conceito de derivada, de forma que:
 
-\begin{equation}\label{eq12}
+$$
 \rho(\textbf{x})=\lim_{\Delta v \to 0}\frac{\Delta m}{\Delta v}
-\end{equation}
+$$
 
 Em que $\Delta v$ é um volume arbitrário que contém a coordenada $\textbf{x}$ e $\Delta m$ a massa de fluido contida nesse volume. Aqui nos deparamos com um problema: Se o volume for tão pequeno que o trânsito material de moléculas através de suas fronteiras se fizer perceptível ao processo de média estatística, então não faz mais sentido definir massa específica.
 

@@ -4,9 +4,9 @@
 
 
 $
-  f(n) =
+f(n) =
 \begin{cases}
-n/2,  & \text{if $n$ is even} \\
+\frac{n}{2},  & \text{if $n$ is even} \\[2ex]
 3n+1, & \text{if $n$ is odd}
 \end{cases}
 $

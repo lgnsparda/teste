@@ -39,7 +39,7 @@ Estamos, portanto, interessados no reflexo médio, de significado estatístico b
     \label{fig11}
 \end{figure}
 
-Em geral definimos \underline{massa específica média} como:
+Em geral definimos __massa específica média__ como:
 
 $$
 \overline{\rho}=\frac{m}{v}

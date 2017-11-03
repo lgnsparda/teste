@@ -6,7 +6,8 @@
 $
 f(n) =
 \begin{cases}
-\frac{n}{2},  & \text{if $n$ is even} \\
+\frac{n}{2},  & \text{if $n$ is even} 
+\vspace{1cm}
 3n+1, & \text{if $n$ is odd}
 \end{cases}
 $

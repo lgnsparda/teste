@@ -80,28 +80,27 @@ $$
 \lambda=\frac{K_{B} T}{\sqrt{2} \pi \sigma^{2} P}, \hspace{2mm} onde:
 $$
 
-\begin{itemize}
-  \item $K_{B}$: Constante de Boltzmann: $1,38 \times 10^{-23} \hspace{1mm} J/K $
-  \item $\sigma$: Diâmetro da Partícula: ($N_{2} \sim 3,7$Â, $O_{2} \sim 3,0$Â onde $1$Â= $10^{-10}m$)
-  \item $P$: Pressão Absoluta;
-\end{itemize}
 
-\begin{equation}\label{eq15}
+  - $K_{B}$: Constante de Boltzmann: $1,38 \times 10^{-23} \hspace{1mm} J/K $
+  - $\sigma$: Diâmetro da Partícula: ($N_{2} \sim 3,7$Â, $O_{2} \sim 3,0$Â onde $1$Â= $10^{-10}m$)
+  - $P$: Pressão Absoluta;
+
+$$
 \lambda \sim \frac{1,4 \times 10^{-23} \cdot 300}{1,14 \times 3,14 \times 9 \times 10^{-20} \cdot 10^{5}} \sim 10^{-7}
-\end{equation}
+$$
 
 Suponhamos $L=30 \hspace{1mm} cm$ ($0,3 \hspace{1mm} m$):
 
-\begin{equation}\label{eq16}
+$$
 Kn=\frac{10^{-7}}{0,3} \sim 3 \times 10^{-7} \hspace{0.5mm} << 1
-\end{equation}
+$$
 
 De forma que uma abordagem contínua é perfeitamente viável.
 
-\section{Fluido, Escoamento e Escalas de Tempo: O Número de Deborah}
-\vspace{-6mm}
+## Fluido, Escoamento e Escalas de Tempo: O Número de Deborah
 
-A definição de escoamento está ligada intrinsecamente às escalas de tempo envolvidas. Do ponto de vista mecânico, consideramos que um fluido newtoniano é um material que oferece resistência à \underline{taxa de deformação}, diferentemente de um sólido, que oferece resistência à \underline{deformação}. Em geral estamos habituados a classificar de maneira muito objetiva materiais que escoam e que não escoam (fluidos e não-fluidos). No entanto, é preciso estar atento às escalas de tempo associadas à deformação do material, e as alterações das condições dinâmicas a que se sujeita o material. Outra forma de descrever este conceito seria a seguinte: Quando se aplica uma tensão cisalhante em um sólido, este se deforma em uma quantidade fixa, e quando a aplicação da tensão é interrompida, o sólido interrompe sua deformação. Aplicando a mesma tensão em um fluido, este se deforma a uma taxa, e quando a aplicação da tensão é interrompida, o fluido continua a se deformar segundo esta taxa de deformação, caracterizando um escoamento.
+
+A definição de escoamento está ligada intrinsecamente às escalas de tempo envolvidas. Do ponto de vista mecânico, consideramos que um fluido newtoniano é um material que oferece resistência à _taxa de deformação_, diferentemente de um sólido, que oferece resistência à _deformação_. Em geral estamos habituados a classificar de maneira muito objetiva materiais que escoam e que não escoam (fluidos e não-fluidos). No entanto, é preciso estar atento às escalas de tempo associadas à deformação do material, e as alterações das condições dinâmicas a que se sujeita o material. Outra forma de descrever este conceito seria a seguinte: Quando se aplica uma tensão cisalhante em um sólido, este se deforma em uma quantidade fixa, e quando a aplicação da tensão é interrompida, o sólido interrompe sua deformação. Aplicando a mesma tensão em um fluido, este se deforma a uma taxa, e quando a aplicação da tensão é interrompida, o fluido continua a se deformar segundo esta taxa de deformação, caracterizando um escoamento.
 
 Quando uma porção de água é servida em um copo, é preciso cerca de $10^{-13}$ segundos para que as moléculas do material organizem-se e se acomodem à nova vinculação geométrica. Esse tempo, associado exclusivamente às características do material, é chamado de \underline{tempo de relaxação} do fluido. Quando a água escoa para o copo, o tempo associado do escoamento\footnote{Na verdade estamos nos referindo a um tempo relacionado à mudança das condições de contorno que envolvem o material (No caso, o movimento da jarra que contém a água).} da água é da ordem de milissegundos ($10^{-3}$ segundos) ou mais.
 

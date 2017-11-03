@@ -45,7 +45,7 @@ $$
 \overline{\rho}=\frac{m}{v}
 $$
 
-Onde *m* é a massa total do sistema e *v* é o volume total do sistema. Deseja-se definir a massa específica como propriedade local. Seria natural lançar mão do conceito de derivada, de forma que:
+Onde $m$ é a massa total do sistema e $v$ é o volume total do sistema. Deseja-se definir a massa específica como propriedade local. Seria natural lançar mão do conceito de derivada, de forma que:
 
 $$
 \rho(\textbf{x})=\lim_{\Delta v \to 0}\frac{\Delta m}{\Delta v}
@@ -60,25 +60,25 @@ Em que $\Delta v$ é um volume arbitrário que contém a coordenada $\textbf{x}$
     \label{fig12}
 \end{figure}
 
-Em nosso processo de fazer $\Delta v \to 0$, em geral, será possível detectar um tamanho de volume cúbico $\Delta v$ tal que se $\Delta v > \Delta v'$, então as variações afins ao movimento molecular não afetam o valor da razão $\Delta m/\Delta v$. Se essa escala for, por outro lado, muito menor do que a menor escala relevante do problema, i.e., $\Delta v << V$ de maneira que seja possível considerar $\Delta v'$ como ``arbitrariamente pequeno", então podemos admitir que o material em estudo é um meio contínuo.
+Em nosso processo de fazer $\Delta v \to 0$, em geral, será possível detectar um tamanho de volume cúbico $\Delta v$ tal que se $\Delta v > \Delta v'$, então as variações afins ao movimento molecular não afetam o valor da razão $\Delta m/\Delta v$. Se essa escala for, por outro lado, muito menor do que a menor escala relevante do problema, i.e., $\Delta v << V$ de maneira que seja possível considerar $\Delta v'$ como "arbitrariamente pequeno", então podemos admitir que o material em estudo é um meio contínuo.
+
 Em outras palavras se a razão entre uma escala típica de movimento microscópico (Para líquidos ou gases, o livre caminho médio) e uma escala típica do problema que desejamos abordar for muito pequeno, então uma abordagem contínua pode ser empregada. À esta razão dá-se o nome de Número de Knudsen, tal que:
 
-\begin{equation}\label{eq13}
+$$
 Kn=\frac{\lambda}{L}
-\end{equation}
+$$
 
-Se $Kn<<1 \longrightarrow$ meio contínuo.
+Se $Kn<<1$ então o meio é contínuo.
 
-\textbf{Exemplo:} Escoamento de ar através de um rotor de ventilador doméstico:
+**Exemplo:** Escoamento de ar através de um rotor de ventilador doméstico:
 
-\begin{itemize}
-  \item $L=$ Diâmetro do rotor, cerca de 30 cm.
-  \item $\lambda=$ Livre caminho médio. Para um gás perfeito, temos da teoria cinética dos gases que:
-\end{itemize}
+  - $L=$ Diâmetro do rotor, cerca de 30 cm.
+  - $\lambda=$ Livre caminho médio. Para um gás perfeito, temos da teoria cinética dos gases que:
 
-\begin{equation}\label{eq14}
+
+$$
 \lambda=\frac{K_{B} T}{\sqrt{2} \pi \sigma^{2} P}, \hspace{2mm} onde:
-\end{equation}
+$$
 
 \begin{itemize}
   \item $K_{B}$: Constante de Boltzmann: $1,38 \times 10^{-23} \hspace{1mm} J/K $

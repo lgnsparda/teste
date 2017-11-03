@@ -122,25 +122,23 @@ Podemos fazer algumas observações sobre a relação entre o número de Deborah
   - $De \sim 1$: O material escoa, mas efeitos não-lineares começam a ser importantes, ou já o são! Estes efeitos são associados principalmente a efeitos elásticos no fluido. Ou seja, o material não é puramente fluido ou sólido;
   - $De \longrightarrow \infty$: O material \underline{pode} se comportar como um fluido. De toda forma, o material fica indiferente às mudanças nas condições de contorno.
   
-##Notação Indicial
-
+## Notação Indicial
 
 A notação indicial ou notação de Einstein é um método muito útil para a representação de grandezas vetoriais.
 
 Um dado vetor no $\mathbb{R}^3$ é representado na seguinte forma:
 
-\begin{equation}\label{eq18}
+$$
 \mathbf{v}=(v_{1}, v_{2}, v_{3})=v_{1}\widehat{e}_{1}+v_{2}\widehat{e}_{2}+v_{3}\widehat{e}_{3}
-\end{equation}
+$$
 
 Onde os vetores base são:
 
-\begin{eqnarray}\label{eq19}
-% \nonumber to remove numbering (before each equation)
+$$
   \nonumber \widehat{e}_{1} &=& (1,0,0) \\
   \widehat{e}_{2} &=& (0,1,0) \\
   \nonumber \widehat{e}_{3} &=& (0,0,1)
-\end{eqnarray}
+$$
 
 As propriedades fundamentais dos vetores de base são descritas como:
 

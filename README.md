@@ -6,7 +6,7 @@
 $$
 \frac{u}{u_{\infty}}=
   \begin{cases}
-    -\left(\cos \alpha - \sin \alpha \sqrt{\frac{l+2x}{l-2x}}\right)\\
+    -\left(\cos \alpha - \sin \alpha \sqrt{\frac{l+2x}{l-2x}}\right) \\
     -\left(\cos \alpha + \sin \alpha \sqrt{\frac{l+2x}{l-2x}}\right)
   \end{cases}
 $$

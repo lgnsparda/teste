@@ -2,6 +2,9 @@
 
 A cinemática de fluidos é definida como o estudo ou descrição do movimento dos fluidos.
 
+Eu quero editar aqui
+
+
 Mas o que é escoamento?
 
 A ideia básica sobre o que é escoamento está associada ao movimento de partículas fluidas\footnote{Onde entenderemos partícula fluida ou material como um ponto material, definido de forma a respeitar a hipótese de meio contínuo}.
